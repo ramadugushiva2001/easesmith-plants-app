@@ -1,0 +1,27 @@
+.nurseries-gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.nursery-card {
+    text-align: center;
+    width: 150px;
+}
+
+.nursery-image {
+    width: 120px;
+    height: 120px;
+    gap: 0px;
+    opacity: 0px;
+    border-radius: 50%;
+}
+
+.nursery-description {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: center;
+}

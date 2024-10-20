@@ -1,0 +1,80 @@
+.home-container{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.filters-prodcuts-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+}
+.search-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    opacity: 0px;
+    border-bottom: 1px solid #000;
+    width: 500px;
+    margin-bottom: 30px;
+}
+
+.search-icon{
+    width: 20px;
+    height: 20px;
+}
+.leaves-icon{
+    width: 32.24px;
+    height: 25px;
+    top: 138px;
+    left: 839px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.search-input{
+    border: none;
+    width: 370px;
+    height: 26px;
+    top: 138px;
+    left: 498px;
+    gap: 10px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+}
+
+
+.plants-button{
+    width: 114px;
+height: 37px;
+top: 215px;
+background-color: #165315;
+box-shadow: 0px 4px 4px 0px #00000040;
+left: 69px;
+gap: 0px;
+opacity: 0px;
+color:#fff;
+margin-right: 10px;
+}
+.pots-button{
+    width: 114px;
+height: 37px;
+top: 215px;
+left: 194px;
+gap: 0px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+background-color: #0000004D;
+border: 1px solid #0000004D;
+}
+
+.description{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}

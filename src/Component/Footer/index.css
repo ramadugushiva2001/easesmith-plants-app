@@ -1,0 +1,45 @@
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F0FFE5;   
+    width: 100vw;
+}
+
+.footer-top-container{
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (max-width:767px) {
+    .footer-top-container{
+        flex-direction: column;
+    }
+}
+.footer-card-container{
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+}
+
+.subscribe-button{
+width: 140px;
+height: 40px;
+border-radius: 30px ;
+background: #247822;
+border: none;
+color: #ffffff;
+}
+
+.footer-bottom-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 75vw;
+}
+
+.hr-line{
+    border: 0.7px solid #0000004D;
+    width: 100%;
+}
